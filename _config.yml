@@ -18,16 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Manuel Pessoa de Lima
+email: manu@manupessoalima.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Manuel Pessoa de Lima is a composer-performer developing solo performances
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+##Here I am editing some stuff that is in the theme structure but not appearing originally
+author: Manuel Pessoa de Lima
+instagram_username: manupessoalima
+
+#Here is new fields that are not in the theme, something new!
+copyright: "Copyright MANU"
+title-logo: /images/title-logo.jpg
+# title logo is a new field I am making to host the logo. 
 
 # Build settings
 # removed minima theme as it is now a regular theme
